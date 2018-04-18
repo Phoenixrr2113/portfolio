@@ -13,7 +13,13 @@ import {
 } from 'reactstrap';
 import Contact from './contact';
 import About from './about';
-import Projects from './projects';
+import htmlPic from '../../images/HTML5.png';
+import cssPic from '../../images/css.png';
+import mongoPic from '../../images/mongodb.png';
+import nodePic from '../../images/node.png';
+import reactPic from '../../images/react.png';
+import reduxPic from '../../images/Redux.png';
+// import Projects from './projects';
 
 function Home() {
   return (
@@ -30,8 +36,9 @@ function Home() {
           <CardImg
             top
             width="100%"
-            src="/Users/MyMacBook/Desktop/portfolio/portfolio-page/src/images/HTML5.png"
-            alt="Card image cap"
+            src={htmlPic}
+            className="rounded-circle"
+            alt="Cinque Terre"
           />
           <CardBody>
             <CardTitle>Html</CardTitle>
@@ -47,8 +54,9 @@ function Home() {
           <CardImg
             top
             width="100%"
-            src="/Users/MyMacBook/Desktop/portfolio/portfolio-page/src/images/css.png"
-            alt="Card image cap"
+            src={cssPic}
+            className="img-circle"
+            alt="Cinque Terre"
           />
           <CardBody>
             <CardTitle>Bootstrap</CardTitle>
@@ -69,8 +77,9 @@ function Home() {
           <CardImg
             top
             width="100%"
-            src="/Users/MyMacBook/Desktop/portfolio/portfolio-page/src/images/mongodb.png"
-            alt="Card image cap"
+            src={mongoPic}
+            className="img-circle"
+            alt="Cinque Terre"
           />
           <CardBody>
             <CardTitle>MongoDB</CardTitle>
@@ -86,8 +95,9 @@ function Home() {
           <CardImg
             top
             width="100%"
-            src="/Users/MyMacBook/Desktop/portfolio/portfolio-page/src/images/node.png"
-            alt="Card image cap"
+            src={nodePic}
+            className="img-circle"
+            alt="Cinque Terre"
           />
           <CardBody>
             <CardTitle>Node</CardTitle>
@@ -103,8 +113,9 @@ function Home() {
           <CardImg
             top
             width="100%"
-            src="/Users/MyMacBook/Desktop/portfolio/portfolio-page/src/images/react.png"
-            alt="Card image cap"
+            src={reactPic}
+            className="img-circle"
+            alt="Cinque Terre"
           />
           <CardBody>
             <CardTitle>React</CardTitle>
@@ -120,8 +131,9 @@ function Home() {
           <CardImg
             top
             width="100%"
-            src="/Users/MyMacBook/Desktop/portfolio/portfolio-page/src/images/Redux.png"
-            alt="Card image cap"
+            src={reduxPic}
+            className="img-circle"
+            alt="Cinque Terre"
           />
           <CardBody>
             <CardTitle>Redux</CardTitle>

@@ -5,7 +5,7 @@ import FontAwesomeIcon from 'react-fontawesome';
 import About from './components/navigation/about';
 import Contact from './components/navigation/contact';
 import Navigation from './components/navigation/navigation';
-import Projects from './components/navigation/projects';
+// import Projects from './components/navigation/projects';
 import Home from './components/navigation/home';
 
 class App extends Component {
@@ -17,7 +17,7 @@ class App extends Component {
           <div>
             <Switch>
               <Route path="/contact" component={Contact} />
-              <Route path="/projects" component={Projects} />
+              {/* <Route path="/projects" component={Projects} /> */}
               <Route path="/about" component={About} />
               <Route path="/" component={Home} />
             </Switch>
